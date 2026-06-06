@@ -1,0 +1,18 @@
+{
+  "root": [
+    "./src/App.tsx",
+    "./src/main.tsx",
+    "./src/vite-env.d.ts",
+    "./src/components/Footer.tsx",
+    "./src/components/LanguageSelector.tsx",
+    "./src/components/Nav.tsx",
+    "./src/components/ThemeSelector.tsx",
+    "./src/context/LanguageContext.tsx",
+    "./src/context/ThemeContext.tsx",
+    "./src/i18n/translations.ts",
+    "./src/pages/CV.tsx",
+    "./src/pages/Games.tsx",
+    "./src/pages/Projects.tsx"
+  ],
+  "version": "5.9.3"
+}

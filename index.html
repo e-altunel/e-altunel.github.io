@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[Your Name] — Computer Engineer</title>
+    <meta name="description" content="CV of [Your Name], Computer Engineer." />
+    <!-- Prevent flash of wrong theme before React hydrates -->
+    <script>
+      ;(function () {
+        var t = localStorage.getItem('cv-theme') || 'system'
+        var r =
+          t === 'system'
+            ? window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+            : t
+        document.documentElement.setAttribute('data-theme', r)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
