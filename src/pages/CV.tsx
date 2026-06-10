@@ -215,7 +215,7 @@ export default function CV() {
 
       {/* Skills */}
       <section className="section">
-        <h2 className="section-title">{t.cv.sections.skills}</h2>
+        <h2 className="section-title">{t.cv.sections.skills_interest}</h2>
         <div className="skills-grid">
           <SkillGroup
             label={t.cv.skillGroups.languages}
