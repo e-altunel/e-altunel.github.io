@@ -32,12 +32,8 @@ const EXPERIENCE: ExperienceEntry[] = [
     },
     bullets: [
       {
-        en: 'Describe a key responsibility or achievement here.',
-        tr: 'Temel bir sorumluluğu veya başarıyı buraya yazın.',
-      },
-      {
-        en: 'Quantify impact wherever possible (e.g., "reduced build time by 40%").',
-        tr: 'Mümkün olduğunda etkiyi sayısallaştırın (ör. "derleme süresini %40 azalttı").',
+        en: 'Developing software using Qt and C++',
+        tr: 'Qt ve C++ kullanarak geliştirme yapıyorum',
       },
     ],
     tags: ['C++', 'Python', 'Typescript', 'Docker', 'Qt'],
@@ -61,15 +57,11 @@ const EXPERIENCE: ExperienceEntry[] = [
     },
     bullets: [
       {
-        en: 'Key responsibility or achievement.',
-        tr: 'Temel sorumluluk veya başarı.',
-      },
-      {
-        en: 'Another notable contribution.',
-        tr: 'Dikkat çekici başka bir katkı.',
+        en: 'Developed software using C++ and Typescript',
+        tr: 'C++ ve Typescript kullanarak geliştirme yaptım',
       },
     ],
-    tags: ['C++', 'Python', 'Typescript', 'Docker', 'Qt'],
+    tags: ['C++', 'Python', 'Typescript', 'Docker', 'Qt', 'Angular', 'NestJS'],
   },
   {
     title: {
@@ -185,7 +177,6 @@ export default function CV() {
 
   return (
     <main className="page">
-      {/* Hero */}
       <section className="hero">
         <div className="hero-avatar">👤</div>
         <div className="hero-body">
@@ -193,7 +184,7 @@ export default function CV() {
           <p className="hero-title">{t.cv.title}</p>
           <p className="hero-summary">{t.cv.summary}</p>
           <div className="hero-links">
-            <a className="hero-link" href="mailto:your@email.com">
+            <a className="hero-link" href="mailto:e.altunel@outlook.com">
               <MailIcon /> e.altunel@outlook.com
             </a>
             <a
@@ -228,19 +219,49 @@ export default function CV() {
         <div className="skills-grid">
           <SkillGroup
             label={t.cv.skillGroups.languages}
-            items={['C', 'C++', 'Python', 'Go', 'JavaScript', 'TypeScript']}
+            items={[
+              'C/C++',
+              'Python',
+              'JavaScript',
+              'TypeScript',
+              'Rust',
+              'SQL',
+              'Java',
+            ]}
           />
           <SkillGroup
             label={t.cv.skillGroups.systemsTools}
-            items={['Linux', 'Git', 'Docker', 'CMake', 'GDB']}
+            items={[
+              'Linux',
+              'Git',
+              'Docker',
+              'CMake',
+              'GDB',
+              'perf',
+              'heaptrack',
+              'valgrind',
+            ]}
           />
           <SkillGroup
             label={t.cv.skillGroups.webBackend}
-            items={['React', 'Node.js', 'REST', 'HTML', 'CSS']}
+            items={[
+              'React',
+              'Angular',
+              'NestJS',
+              'Express',
+              'Bun',
+              'Firebase',
+              'Fastify',
+              'FastAPI',
+            ]}
           />
           <SkillGroup
-            label={t.cv.skillGroups.concepts}
-            items={['Algorithms', 'OS', 'Networking', 'Concurrency']}
+            label={t.cv.skillGroups.interests}
+            items={[
+              'Game Development',
+              'Concurrent Programming',
+              'Systems Programming',
+            ]}
           />
         </div>
       </section>

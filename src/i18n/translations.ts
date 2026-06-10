@@ -17,7 +17,7 @@ export interface Translations {
     summary: string
     downloadPdf: string
     sections: {
-      skills: string
+      skills_interest: string
       experience: string
       education: string
       featuredProjects: string
@@ -26,7 +26,7 @@ export interface Translations {
       languages: string
       systemsTools: string
       webBackend: string
-      concepts: string
+      interests: string
     }
     present: string
     keypoints: string
@@ -71,10 +71,11 @@ const en: Translations = {
   },
   cv: {
     title: 'Computer Engineer',
-    summary: '...',
+    summary:
+      'C++, Python, and Typescript developer with experience in web and desktop applications.',
     downloadPdf: 'Download PDF',
     sections: {
-      skills: 'Skills',
+      skills_interest: 'Skills & Interests',
       experience: 'Experience',
       education: 'Education',
       featuredProjects: 'Featured Projects',
@@ -83,7 +84,7 @@ const en: Translations = {
       languages: 'Languages',
       systemsTools: 'Systems & Tools',
       webBackend: 'Web / Backend',
-      concepts: 'Concepts',
+      interests: 'Interests',
     },
     present: 'Present',
     keypoints: 'Keypoints',
@@ -129,10 +130,11 @@ const tr: Translations = {
   },
   cv: {
     title: 'Bilgisayar Mühendisi',
-    summary: '...',
+    summary:
+      'Web ve masaüstü uygulamalarında deneyimli C++, Python ve Typescript geliştiricisi.',
     downloadPdf: 'PDF İndir',
     sections: {
-      skills: 'Beceriler',
+      skills_interest: 'Yetenekler & İlgi Alanları',
       experience: 'Deneyim',
       education: 'Eğitim',
       featuredProjects: 'Öne Çıkan Projeler',
@@ -141,7 +143,7 @@ const tr: Translations = {
       languages: 'Diller',
       systemsTools: 'Sistemler & Araçlar',
       webBackend: 'Web / Backend',
-      concepts: 'Kavramlar',
+      interests: 'İlgi Alanları',
     },
     present: 'Günümüz',
     keypoints: 'Önemli Noktalar',
