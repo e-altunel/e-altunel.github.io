@@ -27,7 +27,7 @@ export default function Nav() {
     <nav className="nav">
       <div className="nav-inner">
         <NavLink to="/" className="nav-brand" end>
-          [YN]
+          [EA]
         </NavLink>
         <NavLink to="/" className={linkClass} end aria-label={t.nav.cv}>
           <NavIcon d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zm-9 3h2v2h-2zm0 4h2v2h-2zM8 10h2v2H8zm0 4h2v2H8zm8-4h-2v2h2zm0 4h-2v2h2zM5 3h14a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2z" />

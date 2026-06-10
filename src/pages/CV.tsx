@@ -187,10 +187,7 @@ export default function CV() {
     <main className="page">
       {/* Hero */}
       <section className="hero">
-        <div className="hero-avatar">
-          {/* Replace with: <img src="/assets/avatar.jpg" alt="[Your Name]" /> */}
-          👤
-        </div>
+        <div className="hero-avatar">👤</div>
         <div className="hero-body">
           <h1 className="hero-name">Emirhan Altunel</h1>
           <p className="hero-title">{t.cv.title}</p>
