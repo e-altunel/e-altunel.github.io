@@ -833,6 +833,7 @@ a:hover { text-decoration: underline; }
   .card {
     background: transparent !important;
     border: none !important;
+    border-radius: 0 !important;
     padding: 0 !important;
     margin-bottom: 0 !important;
     page-break-inside: avoid;
@@ -841,7 +842,7 @@ a:hover { text-decoration: underline; }
   .card + .card {
     margin-top: 9pt !important;
     padding-top: 9pt !important;
-    border-top: 0.5pt solid #e2e8f0 !important;
+    border-top: 0.75pt solid #c0c8d4 !important;
   }
 
   .card-header {
