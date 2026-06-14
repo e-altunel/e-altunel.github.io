@@ -32,8 +32,16 @@ const EXPERIENCE: ExperienceEntry[] = [
     },
     bullets: [
       {
-        en: 'Developing software using Qt and C++',
-        tr: 'Qt ve C++ kullanarak geliştirme yapıyorum',
+        en: 'Developing services with Qt and C++',
+        tr: 'Qt ve C++ kullanarak servis geliştiriyorum',
+      },
+      {
+        en: 'Developing object detection, image segmentation services',
+        tr: 'Obje tespiti ve imge segmentasyon servisleri gelistiriyorum',
+      },
+      {
+        en: 'Developing C++ libraries for general use cases',
+        tr: 'Genel kullanım için C++ kütüphaneleri geliştirdim',
       },
     ],
     tags: ['C++', 'Python', 'Typescript', 'Docker', 'Qt'],
@@ -60,8 +68,25 @@ const EXPERIENCE: ExperienceEntry[] = [
         en: 'Developed software using C++ and Typescript',
         tr: 'C++ ve Typescript kullanarak geliştirme yaptım',
       },
+      {
+        en: 'Developed CI/CD tools for other developers',
+        tr: 'Diğer geliştiriciler için CI/CD araçlarını geliştirdim',
+      },
+      {
+        en: 'Developed tools/scripts based on SWIG that help C++ libraries open for other languages',
+        tr: 'C++ kütüphaneleri diğer dillerde kullanılabilmesi için araçlar/scriptler geliştirdim',
+      },
     ],
-    tags: ['C++', 'Python', 'Typescript', 'Docker', 'Qt', 'Angular', 'NestJS'],
+    tags: [
+      'C++',
+      'Python',
+      'Typescript',
+      'Docker',
+      'Qt',
+      'Angular',
+      'NestJS',
+      'Swig',
+    ],
   },
   {
     title: {

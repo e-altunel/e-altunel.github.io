@@ -814,7 +814,6 @@ a:hover { text-decoration: underline; }
   /* ── Section titles ── */
   .section {
     margin-bottom: 10pt !important;
-    page-break-inside: avoid;
   }
 
   .section-title {
@@ -986,4 +985,5 @@ a:hover { text-decoration: underline; }
   /* ── Page break control ── */
   h1, h2, h3 { page-break-after: avoid; }
   .card { page-break-inside: avoid; }
+  .section-title { page-break-after: avoid; }
 }
